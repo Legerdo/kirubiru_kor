@@ -62,4 +62,4 @@ IDA가 복원하지 못한 8개의 작은 카메라/파편/필살기/암석 콜�
 
 독립 실행은 `web/run.bat`, 추가 원본 보존 감사는 `npm run verify -- --original-root ..`를 사용합니다. `web/public/assets`, `research`의 정적 분석/복원 입력, `native`의 플랫폼/수동 복원 코드와 `tools`는 보존해야 합니다. 보존된 `original-analysis.exe*`는 추가 분석 자료이며 재빌드 필수 입력이 아닙니다.
 
-참고로 사용한 요구사항 설명: [사용자 제공 나무위키](https://namu.wiki/w/%ED%82%A4%EB%A3%A8%EB%B9%84%EB%A3%A8), [접근 가능한 문서 미러](https://m.namu.moe/w/%ED%82%A4%EB%A3%A8%EB%B9%84%EB%A3%A8). 실제 수치와 판정의 기준은 로컬 실행 파일의 정적 분석이며 문서의 공략을 게임 규칙으로 대신 사용하지 않았습니다.
+참고: [나무위키 · 키루비루](https://namu.wiki/w/%ED%82%A4%EB%A3%A8%EB%B9%84%EB%A3%A8). 실제 수치와 판정의 기준은 로컬 실행 파일의 정적 분석이며 문서의 공략을 게임 규칙으로 대신 사용하지 않았습니다.
