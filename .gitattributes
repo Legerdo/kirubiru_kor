@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+
+# Original resources and reconstruction inputs must survive checkout byte-for-byte.
+web/public/assets/** binary
+*.bin binary
+*.wasm binary
+
+# Preserve the exact upstream license/notice bytes, including their line endings.
+web/public/licenses/** -text

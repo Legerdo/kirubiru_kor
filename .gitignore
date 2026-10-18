@@ -1,0 +1,13 @@
+# Local machine settings and credentials
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Legacy originals are not needed by the self-contained web project.
+/run.exe
+/data/
+/image/
+/sound/
+/save/

@@ -1,0 +1,2402 @@
+[
+  {
+    "address": "0x41c000",
+    "name": "__imp_DirectDrawCreateEx",
+    "type": "HRESULT (__stdcall *)(GUID *lpGuid, LPVOID *lplpDD, const IID *const iid, IUnknown *pUnkOuter)"
+  },
+  {
+    "address": "0x41c008",
+    "name": "__imp_DirectSoundCreate",
+    "type": "HRESULT (__stdcall *)(LPCGUID pcGuidDevice, LPDIRECTSOUND *ppDS, LPUNKNOWN pUnkOuter)"
+  },
+  {
+    "address": "0x41c010",
+    "name": "BitBlt",
+    "type": "BOOL (__stdcall *)(HDC hdc, int x, int y, int cx, int cy, HDC hdcSrc, int x1, int y1, DWORD rop)"
+  },
+  {
+    "address": "0x41c014",
+    "name": "DeleteDC",
+    "type": "BOOL (__stdcall *)(HDC hdc)"
+  },
+  {
+    "address": "0x41c018",
+    "name": "GetPixel",
+    "type": "COLORREF (__stdcall *)(HDC hdc, int x, int y)"
+  },
+  {
+    "address": "0x41c01c",
+    "name": "SetPixel",
+    "type": "COLORREF (__stdcall *)(HDC hdc, int x, int y, COLORREF color)"
+  },
+  {
+    "address": "0x41c020",
+    "name": "DeleteObject",
+    "type": "BOOL (__stdcall *)(HGDIOBJ ho)"
+  },
+  {
+    "address": "0x41c024",
+    "name": "GetStockObject",
+    "type": "HGDIOBJ (__stdcall *)(int i)"
+  },
+  {
+    "address": "0x41c028",
+    "name": "CreateFontA",
+    "type": "HFONT (__stdcall *)(int cHeight, int cWidth, int cEscapement, int cOrientation, int cWeight, DWORD bItalic, DWORD bUnderline, DWORD bStrikeOut, DWORD iCharSet, DWORD iOutPrecision, DWORD iClipPrecision, DWORD iQuality, DWORD iPitchAndFamily, LPCSTR pszFaceName)"
+  },
+  {
+    "address": "0x41c02c",
+    "name": "SetBkMode",
+    "type": "int (__stdcall *)(HDC hdc, int mode)"
+  },
+  {
+    "address": "0x41c030",
+    "name": "SelectObject",
+    "type": "HGDIOBJ (__stdcall *)(HDC hdc, HGDIOBJ h)"
+  },
+  {
+    "address": "0x41c034",
+    "name": "SetTextColor",
+    "type": "COLORREF (__stdcall *)(HDC hdc, COLORREF color)"
+  },
+  {
+    "address": "0x41c038",
+    "name": "TextOutA",
+    "type": "BOOL (__stdcall *)(HDC hdc, int x, int y, LPCSTR lpString, int c)"
+  },
+  {
+    "address": "0x41c03c",
+    "name": "CreateCompatibleDC",
+    "type": "HDC (__stdcall *)(HDC hdc)"
+  },
+  {
+    "address": "0x41c044",
+    "name": "GetStringTypeA",
+    "type": "BOOL (__stdcall *)(LCID Locale, DWORD dwInfoType, LPCSTR lpSrcStr, int cchSrc, LPWORD lpCharType)"
+  },
+  {
+    "address": "0x41c048",
+    "name": "LoadLibraryA",
+    "type": "HMODULE (__stdcall *)(LPCSTR lpLibFileName)"
+  },
+  {
+    "address": "0x41c04c",
+    "name": "GetOEMCP",
+    "type": "UINT (__stdcall *)()"
+  },
+  {
+    "address": "0x41c050",
+    "name": "GetACP",
+    "type": "UINT (__stdcall *)()"
+  },
+  {
+    "address": "0x41c054",
+    "name": "GetCPInfo",
+    "type": "BOOL (__stdcall *)(UINT CodePage, LPCPINFO lpCPInfo)"
+  },
+  {
+    "address": "0x41c058",
+    "name": "IsBadCodePtr",
+    "type": "BOOL (__stdcall *)(FARPROC lpfn)"
+  },
+  {
+    "address": "0x41c05c",
+    "name": "IsBadReadPtr",
+    "type": "BOOL (__stdcall *)(const void *lp, UINT_PTR ucb)"
+  },
+  {
+    "address": "0x41c060",
+    "name": "SetUnhandledExceptionFilter",
+    "type": "LPTOP_LEVEL_EXCEPTION_FILTER (__stdcall *)(LPTOP_LEVEL_EXCEPTION_FILTER lpTopLevelExceptionFilter)"
+  },
+  {
+    "address": "0x41c064",
+    "name": "SetStdHandle",
+    "type": "BOOL (__stdcall *)(DWORD nStdHandle, HANDLE hHandle)"
+  },
+  {
+    "address": "0x41c068",
+    "name": "IsBadWritePtr",
+    "type": "BOOL (__stdcall *)(LPVOID lp, UINT_PTR ucb)"
+  },
+  {
+    "address": "0x41c06c",
+    "name": "VirtualAlloc",
+    "type": "LPVOID (__stdcall *)(LPVOID lpAddress, SIZE_T dwSize, DWORD flAllocationType, DWORD flProtect)"
+  },
+  {
+    "address": "0x41c070",
+    "name": "GetStringTypeW",
+    "type": "BOOL (__stdcall *)(DWORD dwInfoType, LPCWCH lpSrcStr, int cchSrc, LPWORD lpCharType)"
+  },
+  {
+    "address": "0x41c074",
+    "name": "HeapCreate",
+    "type": "HANDLE (__stdcall *)(DWORD flOptions, SIZE_T dwInitialSize, SIZE_T dwMaximumSize)"
+  },
+  {
+    "address": "0x41c078",
+    "name": "HeapDestroy",
+    "type": "BOOL (__stdcall *)(HANDLE hHeap)"
+  },
+  {
+    "address": "0x41c07c",
+    "name": "GetEnvironmentStringsW",
+    "type": "LPWCH (__stdcall *)()"
+  },
+  {
+    "address": "0x41c080",
+    "name": "GetEnvironmentStrings",
+    "type": "LPCH (__stdcall *)()"
+  },
+  {
+    "address": "0x41c084",
+    "name": "WideCharToMultiByte",
+    "type": "int (__stdcall *)(UINT CodePage, DWORD dwFlags, LPCWCH lpWideCharStr, int cchWideChar, LPSTR lpMultiByteStr, int cbMultiByte, LPCCH lpDefaultChar, LPBOOL lpUsedDefaultChar)"
+  },
+  {
+    "address": "0x41c088",
+    "name": "FreeEnvironmentStringsW",
+    "type": "BOOL (__stdcall *)(LPWCH penv)"
+  },
+  {
+    "address": "0x41c08c",
+    "name": "CreateMutexA",
+    "type": "HANDLE (__stdcall *)(LPSECURITY_ATTRIBUTES lpMutexAttributes, BOOL bInitialOwner, LPCSTR lpName)"
+  },
+  {
+    "address": "0x41c090",
+    "name": "GetModuleFileNameA",
+    "type": "DWORD (__stdcall *)(HMODULE hModule, LPSTR lpFilename, DWORD nSize)"
+  },
+  {
+    "address": "0x41c094",
+    "name": "UnhandledExceptionFilter",
+    "type": "LONG (__stdcall *)(struct _EXCEPTION_POINTERS *ExceptionInfo)"
+  },
+  {
+    "address": "0x41c098",
+    "name": "SetFilePointer",
+    "type": "DWORD (__stdcall *)(HANDLE hFile, LONG lDistanceToMove, PLONG lpDistanceToMoveHigh, DWORD dwMoveMethod)"
+  },
+  {
+    "address": "0x41c09c",
+    "name": "WriteFile",
+    "type": "BOOL (__stdcall *)(HANDLE hFile, LPCVOID lpBuffer, DWORD nNumberOfBytesToWrite, LPDWORD lpNumberOfBytesWritten, LPOVERLAPPED lpOverlapped)"
+  },
+  {
+    "address": "0x41c0a0",
+    "name": "FlushFileBuffers",
+    "type": "BOOL (__stdcall *)(HANDLE hFile)"
+  },
+  {
+    "address": "0x41c0a4",
+    "name": "LCMapStringA",
+    "type": "int (__stdcall *)(LCID Locale, DWORD dwMapFlags, LPCSTR lpSrcStr, int cchSrc, LPSTR lpDestStr, int cchDest)"
+  },
+  {
+    "address": "0x41c0a8",
+    "name": "LCMapStringW",
+    "type": "int (__stdcall *)(LCID Locale, DWORD dwMapFlags, LPCWSTR lpSrcStr, int cchSrc, LPWSTR lpDestStr, int cchDest)"
+  },
+  {
+    "address": "0x41c0ac",
+    "name": "SetEndOfFile",
+    "type": "BOOL (__stdcall *)(HANDLE hFile)"
+  },
+  {
+    "address": "0x41c0b0",
+    "name": "CompareStringA",
+    "type": "int (__stdcall *)(LCID Locale, DWORD dwCmpFlags, PCNZCH lpString1, int cchCount1, PCNZCH lpString2, int cchCount2)"
+  },
+  {
+    "address": "0x41c0b4",
+    "name": "CompareStringW",
+    "type": "int (__stdcall *)(LCID Locale, DWORD dwCmpFlags, PCNZWCH lpString1, int cchCount1, PCNZWCH lpString2, int cchCount2)"
+  },
+  {
+    "address": "0x41c0b8",
+    "name": "GetModuleHandleA",
+    "type": "HMODULE (__stdcall *)(LPCSTR lpModuleName)"
+  },
+  {
+    "address": "0x41c0bc",
+    "name": "CreateFileA",
+    "type": "HANDLE (__stdcall *)(LPCSTR lpFileName, DWORD dwDesiredAccess, DWORD dwShareMode, LPSECURITY_ATTRIBUTES lpSecurityAttributes, DWORD dwCreationDisposition, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile)"
+  },
+  {
+    "address": "0x41c0c0",
+    "name": "ReadFile",
+    "type": "BOOL (__stdcall *)(HANDLE hFile, LPVOID lpBuffer, DWORD nNumberOfBytesToRead, LPDWORD lpNumberOfBytesRead, LPOVERLAPPED lpOverlapped)"
+  },
+  {
+    "address": "0x41c0c4",
+    "name": "CloseHandle",
+    "type": "BOOL (__stdcall *)(HANDLE hObject)"
+  },
+  {
+    "address": "0x41c0c8",
+    "name": "VirtualFree",
+    "type": "BOOL (__stdcall *)(LPVOID lpAddress, SIZE_T dwSize, DWORD dwFreeType)"
+  },
+  {
+    "address": "0x41c0cc",
+    "name": "OpenMutexA",
+    "type": "HANDLE (__stdcall *)(DWORD dwDesiredAccess, BOOL bInheritHandle, LPCSTR lpName)"
+  },
+  {
+    "address": "0x41c0d0",
+    "name": "ReleaseMutex",
+    "type": "BOOL (__stdcall *)(HANDLE hMutex)"
+  },
+  {
+    "address": "0x41c0d4",
+    "name": "DeleteFileA",
+    "type": "BOOL (__stdcall *)(LPCSTR lpFileName)"
+  },
+  {
+    "address": "0x41c0d8",
+    "name": "HeapSize",
+    "type": "SIZE_T (__stdcall *)(HANDLE hHeap, DWORD dwFlags, LPCVOID lpMem)"
+  },
+  {
+    "address": "0x41c0dc",
+    "name": "GetCurrentProcess",
+    "type": "HANDLE (__stdcall *)()"
+  },
+  {
+    "address": "0x41c0e0",
+    "name": "TerminateProcess",
+    "type": "BOOL (__stdcall *)(HANDLE hProcess, UINT uExitCode)"
+  },
+  {
+    "address": "0x41c0e4",
+    "name": "HeapAlloc",
+    "type": "LPVOID (__stdcall *)(HANDLE hHeap, DWORD dwFlags, SIZE_T dwBytes)"
+  },
+  {
+    "address": "0x41c0e8",
+    "name": "HeapReAlloc",
+    "type": "LPVOID (__stdcall *)(HANDLE hHeap, DWORD dwFlags, LPVOID lpMem, SIZE_T dwBytes)"
+  },
+  {
+    "address": "0x41c0ec",
+    "name": "GetFileType",
+    "type": "DWORD (__stdcall *)(HANDLE hFile)"
+  },
+  {
+    "address": "0x41c0f0",
+    "name": "SetEnvironmentVariableA",
+    "type": "BOOL (__stdcall *)(LPCSTR lpName, LPCSTR lpValue)"
+  },
+  {
+    "address": "0x41c0f4",
+    "name": "GetStdHandle",
+    "type": "HANDLE (__stdcall *)(DWORD nStdHandle)"
+  },
+  {
+    "address": "0x41c0f8",
+    "name": "SetHandleCount",
+    "type": "UINT (__stdcall *)(UINT uNumber)"
+  },
+  {
+    "address": "0x41c0fc",
+    "name": "GetProcAddress",
+    "type": "FARPROC (__stdcall *)(HMODULE hModule, LPCSTR lpProcName)"
+  },
+  {
+    "address": "0x41c100",
+    "name": "HeapFree",
+    "type": "BOOL (__stdcall *)(HANDLE hHeap, DWORD dwFlags, LPVOID lpMem)"
+  },
+  {
+    "address": "0x41c104",
+    "name": "ExitProcess",
+    "type": "void (__stdcall __noreturn *)(UINT uExitCode)"
+  },
+  {
+    "address": "0x41c108",
+    "name": "GetVersion",
+    "type": "DWORD (__stdcall *)()"
+  },
+  {
+    "address": "0x41c10c",
+    "name": "FreeEnvironmentStringsA",
+    "type": "BOOL (__stdcall *)(LPCH penv)"
+  },
+  {
+    "address": "0x41c110",
+    "name": "CreateDirectoryA",
+    "type": "BOOL (__stdcall *)(LPCSTR lpPathName, LPSECURITY_ATTRIBUTES lpSecurityAttributes)"
+  },
+  {
+    "address": "0x41c114",
+    "name": "MultiByteToWideChar",
+    "type": "int (__stdcall *)(UINT CodePage, DWORD dwFlags, LPCCH lpMultiByteStr, int cbMultiByte, LPWSTR lpWideCharStr, int cchWideChar)"
+  },
+  {
+    "address": "0x41c118",
+    "name": "GetTimeZoneInformation",
+    "type": "DWORD (__stdcall *)(LPTIME_ZONE_INFORMATION lpTimeZoneInformation)"
+  },
+  {
+    "address": "0x41c11c",
+    "name": "GetSystemTime",
+    "type": "void (__stdcall *)(LPSYSTEMTIME lpSystemTime)"
+  },
+  {
+    "address": "0x41c120",
+    "name": "GetLocalTime",
+    "type": "void (__stdcall *)(LPSYSTEMTIME lpSystemTime)"
+  },
+  {
+    "address": "0x41c124",
+    "name": "GetLastError",
+    "type": "DWORD (__stdcall *)()"
+  },
+  {
+    "address": "0x41c128",
+    "name": "MoveFileA",
+    "type": "BOOL (__stdcall *)(LPCSTR lpExistingFileName, LPCSTR lpNewFileName)"
+  },
+  {
+    "address": "0x41c12c",
+    "name": "__imp_RtlUnwind",
+    "type": "void (__stdcall *)(PVOID TargetFrame, PVOID TargetIp, PEXCEPTION_RECORD ExceptionRecord, PVOID ReturnValue)"
+  },
+  {
+    "address": "0x41c130",
+    "name": "GetStartupInfoA",
+    "type": "void (__stdcall *)(LPSTARTUPINFOA lpStartupInfo)"
+  },
+  {
+    "address": "0x41c134",
+    "name": "GetCommandLineA",
+    "type": "LPSTR (__stdcall *)()"
+  },
+  {
+    "address": "0x41c13c",
+    "name": "PeekMessageA",
+    "type": "BOOL (__stdcall *)(LPMSG lpMsg, HWND hWnd, UINT wMsgFilterMin, UINT wMsgFilterMax, UINT wRemoveMsg)"
+  },
+  {
+    "address": "0x41c140",
+    "name": "ShowWindow",
+    "type": "BOOL (__stdcall *)(HWND hWnd, int nCmdShow)"
+  },
+  {
+    "address": "0x41c144",
+    "name": "SetForegroundWindow",
+    "type": "BOOL (__stdcall *)(HWND hWnd)"
+  },
+  {
+    "address": "0x41c148",
+    "name": "FindWindowA",
+    "type": "HWND (__stdcall *)(LPCSTR lpClassName, LPCSTR lpWindowName)"
+  },
+  {
+    "address": "0x41c14c",
+    "name": "ShowCursor",
+    "type": "int (__stdcall *)(BOOL bShow)"
+  },
+  {
+    "address": "0x41c150",
+    "name": "DestroyWindow",
+    "type": "BOOL (__stdcall *)(HWND hWnd)"
+  },
+  {
+    "address": "0x41c154",
+    "name": "MessageBoxA",
+    "type": "int (__stdcall *)(HWND hWnd, LPCSTR lpText, LPCSTR lpCaption, UINT uType)"
+  },
+  {
+    "address": "0x41c158",
+    "name": "SetWindowPos",
+    "type": "BOOL (__stdcall *)(HWND hWnd, HWND hWndInsertAfter, int X, int Y, int cx, int cy, UINT uFlags)"
+  },
+  {
+    "address": "0x41c15c",
+    "name": "GetSystemMetrics",
+    "type": "int (__stdcall *)(int nIndex)"
+  },
+  {
+    "address": "0x41c160",
+    "name": "UpdateWindow",
+    "type": "BOOL (__stdcall *)(HWND hWnd)"
+  },
+  {
+    "address": "0x41c164",
+    "name": "SetWindowLongA",
+    "type": "LONG (__stdcall *)(HWND hWnd, int nIndex, LONG dwNewLong)"
+  },
+  {
+    "address": "0x41c168",
+    "name": "GetKeyboardState",
+    "type": "BOOL (__stdcall *)(PBYTE lpKeyState)"
+  },
+  {
+    "address": "0x41c16c",
+    "name": "LoadBitmapA",
+    "type": "HBITMAP (__stdcall *)(HINSTANCE hInstance, LPCSTR lpBitmapName)"
+  },
+  {
+    "address": "0x41c170",
+    "name": "GetDC",
+    "type": "HDC (__stdcall *)(HWND hWnd)"
+  },
+  {
+    "address": "0x41c174",
+    "name": "ReleaseDC",
+    "type": "int (__stdcall *)(HWND hWnd, HDC hDC)"
+  },
+  {
+    "address": "0x41c178",
+    "name": "LoadImageA",
+    "type": "HANDLE (__stdcall *)(HINSTANCE hInst, LPCSTR name, UINT type, int cx, int cy, UINT fuLoad)"
+  },
+  {
+    "address": "0x41c17c",
+    "name": "DefWindowProcA",
+    "type": "LRESULT (__stdcall *)(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam)"
+  },
+  {
+    "address": "0x41c180",
+    "name": "PostQuitMessage",
+    "type": "void (__stdcall *)(int nExitCode)"
+  },
+  {
+    "address": "0x41c184",
+    "name": "MoveWindow",
+    "type": "BOOL (__stdcall *)(HWND hWnd, int X, int Y, int nWidth, int nHeight, BOOL bRepaint)"
+  },
+  {
+    "address": "0x41c188",
+    "name": "DispatchMessageA",
+    "type": "LRESULT (__stdcall *)(const MSG *lpMsg)"
+  },
+  {
+    "address": "0x41c18c",
+    "name": "TranslateMessage",
+    "type": "BOOL (__stdcall *)(const MSG *lpMsg)"
+  },
+  {
+    "address": "0x41c190",
+    "name": "LoadIconA",
+    "type": "HICON (__stdcall *)(HINSTANCE hInstance, LPCSTR lpIconName)"
+  },
+  {
+    "address": "0x41c194",
+    "name": "LoadCursorA",
+    "type": "HCURSOR (__stdcall *)(HINSTANCE hInstance, LPCSTR lpCursorName)"
+  },
+  {
+    "address": "0x41c198",
+    "name": "RegisterClassA",
+    "type": "ATOM (__stdcall *)(const WNDCLASSA *lpWndClass)"
+  },
+  {
+    "address": "0x41c19c",
+    "name": "AdjustWindowRect",
+    "type": "BOOL (__stdcall *)(LPRECT lpRect, DWORD dwStyle, BOOL bMenu)"
+  },
+  {
+    "address": "0x41c1a0",
+    "name": "CreateWindowExA",
+    "type": "HWND (__stdcall *)(DWORD dwExStyle, LPCSTR lpClassName, LPCSTR lpWindowName, DWORD dwStyle, int X, int Y, int nWidth, int nHeight, HWND hWndParent, HMENU hMenu, HINSTANCE hInstance, LPVOID lpParam)"
+  },
+  {
+    "address": "0x41c1a4",
+    "name": "wsprintfA",
+    "type": "int (*)(LPSTR, LPCSTR, ...)"
+  },
+  {
+    "address": "0x41c1ac",
+    "name": "timeGetTime",
+    "type": "DWORD (__stdcall *)()"
+  },
+  {
+    "address": "0x41c1b0",
+    "name": "joyGetDevCapsA",
+    "type": "MMRESULT (__stdcall *)(UINT_PTR uJoyID, LPJOYCAPSA pjc, UINT cbjc)"
+  },
+  {
+    "address": "0x41c1b4",
+    "name": "joyGetPosEx",
+    "type": "MMRESULT (__stdcall *)(UINT uJoyID, LPJOYINFOEX pji)"
+  },
+  {
+    "address": "0x41c1b8",
+    "name": "mmioAscend",
+    "type": "MMRESULT (__stdcall *)(HMMIO hmmio, LPMMCKINFO pmmcki, UINT fuAscend)"
+  },
+  {
+    "address": "0x41c1bc",
+    "name": "mmioRead",
+    "type": "LONG (__stdcall *)(HMMIO hmmio, HPSTR pch, LONG cch)"
+  },
+  {
+    "address": "0x41c1c0",
+    "name": "mmioDescend",
+    "type": "MMRESULT (__stdcall *)(HMMIO hmmio, LPMMCKINFO pmmcki, const MMCKINFO *pmmckiParent, UINT fuDescend)"
+  },
+  {
+    "address": "0x41c1c4",
+    "name": "mmioOpenA",
+    "type": "HMMIO (__stdcall *)(LPSTR pszFileName, LPMMIOINFO pmmioinfo, DWORD fdwOpen)"
+  },
+  {
+    "address": "0x41c1c8",
+    "name": "mmioSeek",
+    "type": "LONG (__stdcall *)(HMMIO hmmio, LONG lOffset, int iOrigin)"
+  },
+  {
+    "address": "0x41c1cc",
+    "name": "mmioSetInfo",
+    "type": "MMRESULT (__stdcall *)(HMMIO hmmio, LPCMMIOINFO pmmioinfo, UINT fuInfo)"
+  },
+  {
+    "address": "0x41c1d0",
+    "name": "mmioAdvance",
+    "type": "MMRESULT (__stdcall *)(HMMIO hmmio, LPMMIOINFO pmmioinfo, UINT fuAdvance)"
+  },
+  {
+    "address": "0x41c1d4",
+    "name": "mmioGetInfo",
+    "type": "MMRESULT (__stdcall *)(HMMIO hmmio, LPMMIOINFO pmmioinfo, UINT fuInfo)"
+  },
+  {
+    "address": "0x41c1d8",
+    "name": "mmioClose",
+    "type": "MMRESULT (__stdcall *)(HMMIO hmmio, UINT fuClose)"
+  },
+  {
+    "address": "0x41c1e0",
+    "name": "CoUninitialize",
+    "type": "void (__stdcall *)()"
+  },
+  {
+    "address": "0x41c1e4",
+    "name": "CoCreateInstance",
+    "type": "HRESULT (__stdcall *)(const IID *const rclsid, LPUNKNOWN pUnkOuter, DWORD dwClsContext, const IID *const riid, LPVOID *ppv)"
+  },
+  {
+    "address": "0x41c1e8",
+    "name": "CoInitialize",
+    "type": "HRESULT (__stdcall *)(LPVOID pvReserved)"
+  },
+  {
+    "address": "0x41c358",
+    "name": "riid",
+    "type": "const IID"
+  },
+  {
+    "address": "0x41c3c8",
+    "name": "rclsid",
+    "type": "const IID"
+  },
+  {
+    "address": "0x41c3d8",
+    "name": "iid",
+    "type": "const IID"
+  },
+  {
+    "address": "0x41c440",
+    "name": "ProcName",
+    "type": "const CHAR[]"
+  },
+  {
+    "address": "0x41c45c",
+    "name": "ModuleName",
+    "type": "const CHAR[]"
+  },
+  {
+    "address": "0x41c470",
+    "name": "Source",
+    "type": "const char[]"
+  },
+  {
+    "address": "0x41c4f0",
+    "name": "aRuntimeError",
+    "type": null
+  },
+  {
+    "address": "0x41c504",
+    "name": "aTlossError",
+    "type": null
+  },
+  {
+    "address": "0x41c514",
+    "name": "aSingError",
+    "type": null
+  },
+  {
+    "address": "0x41c524",
+    "name": "aDomainError",
+    "type": null
+  },
+  {
+    "address": "0x41c534",
+    "name": "aR6028UnableToI",
+    "type": null
+  },
+  {
+    "address": "0x41c55c",
+    "name": "aR6027NotEnough",
+    "type": null
+  },
+  {
+    "address": "0x41c594",
+    "name": "aR6026NotEnough",
+    "type": null
+  },
+  {
+    "address": "0x41c5cc",
+    "name": "aR6025PureVirtu",
+    "type": null
+  },
+  {
+    "address": "0x41c5f4",
+    "name": "aR6024NotEnough",
+    "type": null
+  },
+  {
+    "address": "0x41c62c",
+    "name": "aR6019UnableToO",
+    "type": null
+  },
+  {
+    "address": "0x41c658",
+    "name": "aR6018Unexpecte",
+    "type": null
+  },
+  {
+    "address": "0x41c67c",
+    "name": "aR6017Unexpecte",
+    "type": null
+  },
+  {
+    "address": "0x41c6ac",
+    "name": "aR6016NotEnough",
+    "type": null
+  },
+  {
+    "address": "0x41c6d8",
+    "name": "aAbnormalProgra",
+    "type": null
+  },
+  {
+    "address": "0x41c6fc",
+    "name": "aR6009NotEnough",
+    "type": null
+  },
+  {
+    "address": "0x41c728",
+    "name": "aR6008NotEnough",
+    "type": null
+  },
+  {
+    "address": "0x41c754",
+    "name": "aR6002FloatingP",
+    "type": null
+  },
+  {
+    "address": "0x41c77c",
+    "name": "aMicrosoftVisua",
+    "type": null
+  },
+  {
+    "address": "0x41c7a8",
+    "name": "aRuntimeErrorPr",
+    "type": "const char[]"
+  },
+  {
+    "address": "0x41c7c8",
+    "name": "aProgramNameUnk",
+    "type": "const char[]"
+  },
+  {
+    "address": "0x41c7e0",
+    "name": "aSunmontuewedth",
+    "type": null
+  },
+  {
+    "address": "0x41c7f8",
+    "name": "aJanfebmaraprma",
+    "type": null
+  },
+  {
+    "address": "0x41c820",
+    "name": "VarName",
+    "type": "const char[3]"
+  },
+  {
+    "address": "0x41c824",
+    "name": "aGetlastactivep",
+    "type": "const CHAR[]"
+  },
+  {
+    "address": "0x41c838",
+    "name": "aGetactivewindo",
+    "type": "const CHAR[]"
+  },
+  {
+    "address": "0x41c848",
+    "name": "aMessageboxa",
+    "type": "const CHAR[]"
+  },
+  {
+    "address": "0x41c854",
+    "name": "LibFileName",
+    "type": "const CHAR[]"
+  },
+  {
+    "address": "0x41c860",
+    "name": "String1",
+    "type": "const CHAR[4]"
+  },
+  {
+    "address": "0x41c864",
+    "name": "String2",
+    "type": "const WCHAR"
+  },
+  {
+    "address": "0x41c890",
+    "name": "a1Qnan",
+    "type": "const char[]"
+  },
+  {
+    "address": "0x41c898",
+    "name": "a1Inf",
+    "type": "const char[]"
+  },
+  {
+    "address": "0x41c8a0",
+    "name": "a1Ind",
+    "type": null
+  },
+  {
+    "address": "0x41c8a8",
+    "name": "a1Snan",
+    "type": null
+  },
+  {
+    "address": "0x41c948",
+    "name": "__IMPORT_DESCRIPTOR_KERNEL32",
+    "type": null
+  },
+  {
+    "address": "0x41c95c",
+    "name": "__IMPORT_DESCRIPTOR_USER32",
+    "type": null
+  },
+  {
+    "address": "0x41c970",
+    "name": "__IMPORT_DESCRIPTOR_GDI32",
+    "type": null
+  },
+  {
+    "address": "0x41c984",
+    "name": "__IMPORT_DESCRIPTOR_DDRAW",
+    "type": null
+  },
+  {
+    "address": "0x41c998",
+    "name": "__IMPORT_DESCRIPTOR_WINMM",
+    "type": null
+  },
+  {
+    "address": "0x41c9ac",
+    "name": "__IMPORT_DESCRIPTOR_DSOUND",
+    "type": null
+  },
+  {
+    "address": "0x41c9c0",
+    "name": "__IMPORT_DESCRIPTOR_ole32",
+    "type": null
+  },
+  {
+    "address": "0x41cc64",
+    "name": "aKernel32Dll",
+    "type": null
+  },
+  {
+    "address": "0x41ce22",
+    "name": "aUser32Dll",
+    "type": null
+  },
+  {
+    "address": "0x41ceda",
+    "name": "aGdi32Dll",
+    "type": null
+  },
+  {
+    "address": "0x41cefa",
+    "name": "aDdrawDll",
+    "type": null
+  },
+  {
+    "address": "0x41cfa8",
+    "name": "aWinmmDll",
+    "type": null
+  },
+  {
+    "address": "0x41cfb2",
+    "name": "aDsoundDll",
+    "type": null
+  },
+  {
+    "address": "0x41d384",
+    "name": "aOle32Dll",
+    "type": null
+  },
+  {
+    "address": "0x41e014",
+    "name": "First",
+    "type": "_PVFV"
+  },
+  {
+    "address": "0x41e028",
+    "name": "Last",
+    "type": "_PVFV"
+  },
+  {
+    "address": "0x41e054",
+    "name": "aR",
+    "type": "char[2]"
+  },
+  {
+    "address": "0x41e05c",
+    "name": "PathName",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e070",
+    "name": "pszFaceName",
+    "type": "CHAR[3]"
+  },
+  {
+    "address": "0x41e07c",
+    "name": "aSoundIwaWav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e08c",
+    "name": "aSoundGorogoroW",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e0a0",
+    "name": "aSoundSibireWav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e0b4",
+    "name": "aSoundKaminariW",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e0c8",
+    "name": "aSoundWazaWav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e0d8",
+    "name": "aSoundTyakutiWa",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e0ec",
+    "name": "aSoundJumpWav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e0fc",
+    "name": "aSoundMoveWav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e10c",
+    "name": "aSoundHakaiWav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e11c",
+    "name": "aSoundTubureWav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e130",
+    "name": "aSoundBougyoWav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e144",
+    "name": "aSoundSlash3Wav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e158",
+    "name": "aSoundSlash2Wav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e16c",
+    "name": "aSoundSlashWav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e17c",
+    "name": "aSoundSelectWav",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e190",
+    "name": "pszFileName",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e1a0",
+    "name": "aData022Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e1b0",
+    "name": "aData021Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e1c0",
+    "name": "aData020Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e1d0",
+    "name": "aData019Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e1e0",
+    "name": "aData018Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e1f0",
+    "name": "aData017Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e200",
+    "name": "aData016Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e210",
+    "name": "aData015Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e220",
+    "name": "aData014Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e230",
+    "name": "aData013Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e240",
+    "name": "aData012Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e250",
+    "name": "aData011Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e260",
+    "name": "aData010Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e270",
+    "name": "aData009Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e280",
+    "name": "aData008Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e290",
+    "name": "aData007Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e2a0",
+    "name": "aData006Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e2b0",
+    "name": "aData005Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e2c0",
+    "name": "aData004Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e2d0",
+    "name": "aData003Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e2e0",
+    "name": "aData002Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e2f0",
+    "name": "aData001Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e300",
+    "name": "aImageModoru2Bm",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e314",
+    "name": "aImageModoruBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e328",
+    "name": "aImageSaiengi2B",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e33c",
+    "name": "aImageSaiengiBm",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e350",
+    "name": "aImageDemoBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e360",
+    "name": "aImageIBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e36c",
+    "name": "aImageRenzanSBm",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e380",
+    "name": "aImageTenSBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e390",
+    "name": "aImageScoreSBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e3a4",
+    "name": "aImageWazabar2B",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e3b8",
+    "name": "aImageWazabarBm",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e3cc",
+    "name": "aImageBougyobar",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e3e0",
+    "name": "aImageSeikaBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e3f0",
+    "name": "aImageTenBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e400",
+    "name": "aImageRenzanBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e414",
+    "name": "aImageSyuenBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e424",
+    "name": "aImageZanBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e434",
+    "name": "aImageComboBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e444",
+    "name": "aImageHajimeBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e458",
+    "name": "aImageYouiBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e468",
+    "name": "aImageKumoBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e478",
+    "name": "aImageSlashBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e488",
+    "name": "aImageIconBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e498",
+    "name": "aImageHahen3Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e4ac",
+    "name": "aImageHahen2Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e4c0",
+    "name": "aImageHahen1Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e4d4",
+    "name": "aImageTitleBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e4e4",
+    "name": "aImageJumpBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e4f4",
+    "name": "aImageWazaBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e504",
+    "name": "aImageBougyoBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e518",
+    "name": "aImageBil30Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e528",
+    "name": "aImageBil20Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e538",
+    "name": "aImageBil10Bmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e548",
+    "name": "aImageTutiBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e558",
+    "name": "aImageScoreBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e568",
+    "name": "aImageLifeBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e578",
+    "name": "aImageBgBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e588",
+    "name": "aImageCharBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e598",
+    "name": "aImageLoadBmp",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e5a8",
+    "name": "aData000Mid",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e5b8",
+    "name": "MultiByteStr",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e5c8",
+    "name": "aSaveEndlessSco",
+    "type": "char[]"
+  },
+  {
+    "address": "0x41e5e0",
+    "name": "aSaveDainiScore",
+    "type": "char[]"
+  },
+  {
+    "address": "0x41e5f8",
+    "name": "Mode",
+    "type": "char[3]"
+  },
+  {
+    "address": "0x41e5fc",
+    "name": "aSaveReplayDRep",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e610",
+    "name": "aData024Txt",
+    "type": "char[]"
+  },
+  {
+    "address": "0x41e620",
+    "name": "aData023Txt",
+    "type": "char[]"
+  },
+  {
+    "address": "0x41e678",
+    "name": "String",
+    "type": "CHAR[16]"
+  },
+  {
+    "address": "0x41e688",
+    "name": "aWb",
+    "type": "char[3]"
+  },
+  {
+    "address": "0x41e68c",
+    "name": "aSaveScoreSav",
+    "type": "char[]"
+  },
+  {
+    "address": "0x41e69c",
+    "name": "aWbc",
+    "type": "char[]"
+  },
+  {
+    "address": "0x41e6a0",
+    "name": "aSaveReplay10Re",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e6b4",
+    "name": "aSaveReplay20Re",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e6c8",
+    "name": "aSaveReplay30Re",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e6dc",
+    "name": "FileName",
+    "type": "char[]"
+  },
+  {
+    "address": "0x41e6ec",
+    "name": "ClassName",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41e6f8",
+    "name": "WindowName",
+    "type": "CHAR"
+  },
+  {
+    "address": "0x41e704",
+    "name": "Name",
+    "type": "CHAR"
+  },
+  {
+    "address": "0x41e714",
+    "name": "aImageGamePal",
+    "type": null
+  },
+  {
+    "address": "0x41e748",
+    "name": "aUsic",
+    "type": "CHAR[5]"
+  },
+  {
+    "address": "0x41e770",
+    "name": "aNd",
+    "type": "CHAR[3]"
+  },
+  {
+    "address": "0x41e794",
+    "name": "Text",
+    "type": "CHAR"
+  },
+  {
+    "address": "0x41e7b0",
+    "name": "Caption",
+    "type": "CHAR[]"
+  },
+  {
+    "address": "0x41ed40",
+    "name": "__ctype",
+    "type": "unsigned __int16[]"
+  },
+  {
+    "address": "0x41f00c",
+    "name": "Destination",
+    "type": "LPSTR"
+  },
+  {
+    "address": "0x41f6e0",
+    "name": "Buffer",
+    "type": "char[]"
+  },
+  {
+    "address": "0x41f7b8",
+    "name": "Block",
+    "type": "void *"
+  },
+  {
+    "address": "0x41fa78",
+    "name": "nWidth",
+    "type": "int"
+  },
+  {
+    "address": "0x41fa7c",
+    "name": "nHeight",
+    "type": "int"
+  },
+  {
+    "address": "0x41fa80",
+    "name": "dwNewLong",
+    "type": "LONG"
+  },
+  {
+    "address": "0x41fa8c",
+    "name": "hWnd",
+    "type": "HWND"
+  },
+  {
+    "address": "0x4a9648",
+    "name": "ppDS",
+    "type": "LPDIRECTSOUND"
+  },
+  {
+    "name": "dword_41F5B4",
+    "address": "0x41f5b4",
+    "type": null
+  },
+  {
+    "name": "byte_41F850",
+    "address": "0x41f850",
+    "type": null
+  },
+  {
+    "name": "dword_41F640",
+    "address": "0x41f640",
+    "type": null
+  },
+  {
+    "name": "dword_41F6A0",
+    "address": "0x41f6a0",
+    "type": null
+  },
+  {
+    "name": "dword_4A95DC",
+    "address": "0x4a95dc",
+    "type": null
+  },
+  {
+    "name": "byte_41F818",
+    "address": "0x41f818",
+    "type": "char[]"
+  },
+  {
+    "name": "unk_41F740",
+    "address": "0x41f740",
+    "type": null
+  },
+  {
+    "name": "dword_41F7BC",
+    "address": "0x41f7bc",
+    "type": null
+  },
+  {
+    "name": "dword_41F698",
+    "address": "0x41f698",
+    "type": null
+  },
+  {
+    "name": "dword_41F62C",
+    "address": "0x41f62c",
+    "type": null
+  },
+  {
+    "name": "dword_41F488",
+    "address": "0x41f488",
+    "type": null
+  },
+  {
+    "name": "dword_41F538",
+    "address": "0x41f538",
+    "type": null
+  },
+  {
+    "name": "dword_41F5B8",
+    "address": "0x41f5b8",
+    "type": null
+  },
+  {
+    "name": "dword_41F840",
+    "address": "0x41f840",
+    "type": null
+  },
+  {
+    "name": "byte_41F5FD",
+    "address": "0x41f5fd",
+    "type": null
+  },
+  {
+    "name": "dword_41F478",
+    "address": "0x41f478",
+    "type": null
+  },
+  {
+    "name": "byte_41F6B9",
+    "address": "0x41f6b9",
+    "type": null
+  },
+  {
+    "name": "unk_4205D8",
+    "address": "0x4205d8",
+    "type": null
+  },
+  {
+    "name": "dword_41F4C8",
+    "address": "0x41f4c8",
+    "type": null
+  },
+  {
+    "name": "dword_41F6C4",
+    "address": "0x41f6c4",
+    "type": null
+  },
+  {
+    "name": "dword_41F838",
+    "address": "0x41f838",
+    "type": null
+  },
+  {
+    "name": "byte_41E064",
+    "address": "0x41e064",
+    "type": "CHAR"
+  },
+  {
+    "name": "dword_41F6CC",
+    "address": "0x41f6cc",
+    "type": null
+  },
+  {
+    "name": "byte_41F6E8",
+    "address": "0x41f6e8",
+    "type": null
+  },
+  {
+    "name": "unk_41F744",
+    "address": "0x41f744",
+    "type": null
+  },
+  {
+    "name": "byte_41F7A0",
+    "address": "0x41f7a0",
+    "type": "char[]"
+  },
+  {
+    "name": "dword_4A85D8",
+    "address": "0x4a85d8",
+    "type": "int[]"
+  },
+  {
+    "name": "byte_41F870",
+    "address": "0x41f870",
+    "type": null
+  },
+  {
+    "name": "dword_41F47C",
+    "address": "0x41f47c",
+    "type": null
+  },
+  {
+    "name": "byte_405428",
+    "address": "0x405428",
+    "type": "char[]"
+  },
+  {
+    "name": "dword_41F5C0",
+    "address": "0x41f5c0",
+    "type": null
+  },
+  {
+    "name": "byte_41F4C5",
+    "address": "0x41f4c5",
+    "type": null
+  },
+  {
+    "name": "dword_41F69C",
+    "address": "0x41f69c",
+    "type": null
+  },
+  {
+    "name": "byte_41F52D",
+    "address": "0x41f52d",
+    "type": null
+  },
+  {
+    "name": "dword_41F53C",
+    "address": "0x41f53c",
+    "type": null
+  },
+  {
+    "name": "byte_41E630",
+    "address": "0x41e630",
+    "type": "CHAR[36]"
+  },
+  {
+    "name": "dword_4205D0",
+    "address": "0x4205d0",
+    "type": null
+  },
+  {
+    "name": "unk_41F679",
+    "address": "0x41f679",
+    "type": null
+  },
+  {
+    "name": "dword_41F790",
+    "address": "0x41f790",
+    "type": null
+  },
+  {
+    "name": "dword_41F46C",
+    "address": "0x41f46c",
+    "type": null
+  },
+  {
+    "name": "dword_41F470",
+    "address": "0x41f470",
+    "type": null
+  },
+  {
+    "name": "dword_41F4DC",
+    "address": "0x41f4dc",
+    "type": null
+  },
+  {
+    "name": "dword_41F604",
+    "address": "0x41f604",
+    "type": null
+  },
+  {
+    "name": "dword_41F540",
+    "address": "0x41f540",
+    "type": null
+  },
+  {
+    "name": "dword_4A95E8",
+    "address": "0x4a95e8",
+    "type": null
+  },
+  {
+    "name": "dword_41F598",
+    "address": "0x41f598",
+    "type": null
+  },
+  {
+    "name": "dword_41F668",
+    "address": "0x41f668",
+    "type": null
+  },
+  {
+    "name": "dword_41F854",
+    "address": "0x41f854",
+    "type": null
+  },
+  {
+    "name": "dword_41F520",
+    "address": "0x41f520",
+    "type": null
+  },
+  {
+    "name": "dword_4205D4",
+    "address": "0x4205d4",
+    "type": "int"
+  },
+  {
+    "name": "dword_41F618",
+    "address": "0x41f618",
+    "type": null
+  },
+  {
+    "name": "byte_41F858",
+    "address": "0x41f858",
+    "type": null
+  },
+  {
+    "name": "dword_41F864",
+    "address": "0x41f864",
+    "type": null
+  },
+  {
+    "name": "dword_41F628",
+    "address": "0x41f628",
+    "type": null
+  },
+  {
+    "name": "dword_41F660",
+    "address": "0x41f660",
+    "type": null
+  },
+  {
+    "name": "dword_41F82C",
+    "address": "0x41f82c",
+    "type": null
+  },
+  {
+    "name": "dword_41F5E4",
+    "address": "0x41f5e4",
+    "type": null
+  },
+  {
+    "name": "dword_41F600",
+    "address": "0x41f600",
+    "type": null
+  },
+  {
+    "name": "dword_41F694",
+    "address": "0x41f694",
+    "type": null
+  },
+  {
+    "name": "unk_41F7B4",
+    "address": "0x41f7b4",
+    "type": null
+  },
+  {
+    "name": "byte_41F6B1",
+    "address": "0x41f6b1",
+    "type": null
+  },
+  {
+    "name": "dword_41F5A8",
+    "address": "0x41f5a8",
+    "type": null
+  },
+  {
+    "name": "dword_4202D4",
+    "address": "0x4202d4",
+    "type": null
+  },
+  {
+    "name": "dword_4A85DC",
+    "address": "0x4a85dc",
+    "type": null
+  },
+  {
+    "name": "dword_41F4C0",
+    "address": "0x41f4c0",
+    "type": null
+  },
+  {
+    "name": "dword_41F85C",
+    "address": "0x41f85c",
+    "type": null
+  },
+  {
+    "name": "byte_41F4C4",
+    "address": "0x41f4c4",
+    "type": null
+  },
+  {
+    "name": "dword_41F590",
+    "address": "0x41f590",
+    "type": null
+  },
+  {
+    "name": "byte_41F848",
+    "address": "0x41f848",
+    "type": null
+  },
+  {
+    "name": "dword_41F824",
+    "address": "0x41f824",
+    "type": null
+  },
+  {
+    "name": "dword_41F4E4",
+    "address": "0x41f4e4",
+    "type": null
+  },
+  {
+    "name": "dword_41F5BC",
+    "address": "0x41f5bc",
+    "type": null
+  },
+  {
+    "name": "byte_41F595",
+    "address": "0x41f595",
+    "type": null
+  },
+  {
+    "name": "byte_41F678",
+    "address": "0x41f678",
+    "type": "char[]"
+  },
+  {
+    "name": "dword_41F5C4",
+    "address": "0x41f5c4",
+    "type": null
+  },
+  {
+    "name": "byte_41F834",
+    "address": "0x41f834",
+    "type": null
+  },
+  {
+    "name": "byte_4200C0",
+    "address": "0x4200c0",
+    "type": "char[255]"
+  },
+  {
+    "name": "dword_41F5D0",
+    "address": "0x41f5d0",
+    "type": null
+  },
+  {
+    "name": "dword_41F484",
+    "address": "0x41f484",
+    "type": null
+  },
+  {
+    "name": "dword_41F608",
+    "address": "0x41f608",
+    "type": null
+  },
+  {
+    "name": "dword_41F5D8",
+    "address": "0x41f5d8",
+    "type": null
+  },
+  {
+    "name": "unk_41F794",
+    "address": "0x41f794",
+    "type": null
+  },
+  {
+    "name": "unk_41F7A1",
+    "address": "0x41f7a1",
+    "type": null
+  },
+  {
+    "name": "dword_41F48C",
+    "address": "0x41f48c",
+    "type": null
+  },
+  {
+    "name": "dword_41F65C",
+    "address": "0x41f65c",
+    "type": null
+  },
+  {
+    "name": "dword_41F5D4",
+    "address": "0x41f5d4",
+    "type": null
+  },
+  {
+    "name": "dword_41F624",
+    "address": "0x41f624",
+    "type": null
+  },
+  {
+    "name": "dword_41F474",
+    "address": "0x41f474",
+    "type": null
+  },
+  {
+    "name": "dword_41F558",
+    "address": "0x41f558",
+    "type": null
+  },
+  {
+    "name": "dword_41F690",
+    "address": "0x41f690",
+    "type": null
+  },
+  {
+    "name": "dword_4202C0",
+    "address": "0x4202c0",
+    "type": "int[]"
+  },
+  {
+    "name": "dword_41F828",
+    "address": "0x41f828",
+    "type": null
+  },
+  {
+    "name": "dword_41F68C",
+    "address": "0x41f68c",
+    "type": null
+  },
+  {
+    "name": "dword_41F620",
+    "address": "0x41f620",
+    "type": null
+  },
+  {
+    "name": "dword_41F6E4",
+    "address": "0x41f6e4",
+    "type": null
+  },
+  {
+    "name": "byte_41F665",
+    "address": "0x41f665",
+    "type": null
+  },
+  {
+    "name": "dword_41F670",
+    "address": "0x41f670",
+    "type": null
+  },
+  {
+    "name": "byte_41F664",
+    "address": "0x41f664",
+    "type": null
+  },
+  {
+    "name": "dword_41F86C",
+    "address": "0x41f86c",
+    "type": null
+  },
+  {
+    "name": "dword_41F6D0",
+    "address": "0x41f6d0",
+    "type": null
+  },
+  {
+    "name": "unk_41F6F0",
+    "address": "0x41f6f0",
+    "type": null
+  },
+  {
+    "name": "dword_41F7AC",
+    "address": "0x41f7ac",
+    "type": null
+  },
+  {
+    "name": "dword_41F5DC",
+    "address": "0x41f5dc",
+    "type": null
+  },
+  {
+    "name": "dword_41F4D4",
+    "address": "0x41f4d4",
+    "type": null
+  },
+  {
+    "name": "dword_41F6C0",
+    "address": "0x41f6c0",
+    "type": null
+  },
+  {
+    "name": "byte_4201BF",
+    "address": "0x4201bf",
+    "type": "_BYTE[257]"
+  },
+  {
+    "name": "dword_41F534",
+    "address": "0x41f534",
+    "type": null
+  },
+  {
+    "name": "dword_41F4D0",
+    "address": "0x41f4d0",
+    "type": null
+  },
+  {
+    "name": "dword_41F60C",
+    "address": "0x41f60c",
+    "type": null
+  },
+  {
+    "name": "dword_41F634",
+    "address": "0x41f634",
+    "type": null
+  },
+  {
+    "name": "dword_41F6D8",
+    "address": "0x41f6d8",
+    "type": null
+  },
+  {
+    "name": "dword_41F4BC",
+    "address": "0x41f4bc",
+    "type": null
+  },
+  {
+    "name": "unk_41F6F4",
+    "address": "0x41f6f4",
+    "type": null
+  },
+  {
+    "name": "byte_41F6B8",
+    "address": "0x41f6b8",
+    "type": null
+  },
+  {
+    "name": "byte_41F52C",
+    "address": "0x41f52c",
+    "type": null
+  },
+  {
+    "name": "dword_41F844",
+    "address": "0x41f844",
+    "type": null
+  },
+  {
+    "name": "dword_4202C8",
+    "address": "0x4202c8",
+    "type": null
+  },
+  {
+    "name": "dword_41F54C",
+    "address": "0x41f54c",
+    "type": null
+  },
+  {
+    "name": "dword_41F550",
+    "address": "0x41f550",
+    "type": null
+  },
+  {
+    "name": "dword_41F63C",
+    "address": "0x41f63c",
+    "type": null
+  },
+  {
+    "name": "dword_41F7B0",
+    "address": "0x41f7b0",
+    "type": null
+  },
+  {
+    "name": "dword_41F5F0",
+    "address": "0x41f5f0",
+    "type": null
+  },
+  {
+    "name": "byte_407974",
+    "address": "0x407974",
+    "type": "char[]"
+  },
+  {
+    "name": "dword_41F614",
+    "address": "0x41f614",
+    "type": null
+  },
+  {
+    "name": "byte_41F6B0",
+    "address": "0x41f6b0",
+    "type": null
+  },
+  {
+    "name": "dword_41F554",
+    "address": "0x41f554",
+    "type": null
+  },
+  {
+    "name": "dword_41F5A0",
+    "address": "0x41f5a0",
+    "type": null
+  },
+  {
+    "name": "dword_41F468",
+    "address": "0x41f468",
+    "type": null
+  },
+  {
+    "name": "dword_41F688",
+    "address": "0x41f688",
+    "type": null
+  },
+  {
+    "name": "unk_41F81C",
+    "address": "0x41f81c",
+    "type": null
+  },
+  {
+    "name": "dword_41F61C",
+    "address": "0x41f61c",
+    "type": null
+  },
+  {
+    "name": "dword_41F64C",
+    "address": "0x41f64c",
+    "type": null
+  },
+  {
+    "name": "dword_41F55C",
+    "address": "0x41f55c",
+    "type": null
+  },
+  {
+    "name": "dword_41F6D4",
+    "address": "0x41f6d4",
+    "type": null
+  },
+  {
+    "name": "byte_41F5FC",
+    "address": "0x41f5fc",
+    "type": null
+  },
+  {
+    "name": "dword_4A95F4",
+    "address": "0x4a95f4",
+    "type": "int[21]"
+  },
+  {
+    "name": "dword_41F5C8",
+    "address": "0x41f5c8",
+    "type": null
+  },
+  {
+    "name": "dword_41F79C",
+    "address": "0x41f79c",
+    "type": "int (*)(void)"
+  },
+  {
+    "name": "dword_41F7C0",
+    "address": "0x41f7c0",
+    "type": null
+  },
+  {
+    "name": "dword_41F6B4",
+    "address": "0x41f6b4",
+    "type": null
+  },
+  {
+    "name": "dword_41E7B8",
+    "address": "0x41e7b8",
+    "type": null
+  },
+  {
+    "name": "dword_41F830",
+    "address": "0x41f830",
+    "type": null
+  },
+  {
+    "name": "dword_41F630",
+    "address": "0x41f630",
+    "type": null
+  },
+  {
+    "name": "dword_41F59C",
+    "address": "0x41f59c",
+    "type": null
+  },
+  {
+    "name": "unk_41F7CC",
+    "address": "0x41f7cc",
+    "type": null
+  },
+  {
+    "name": "dword_41F6DC",
+    "address": "0x41f6dc",
+    "type": "char[]"
+  },
+  {
+    "name": "dword_41F6AC",
+    "address": "0x41f6ac",
+    "type": null
+  },
+  {
+    "name": "dword_41F6A4",
+    "address": "0x41f6a4",
+    "type": null
+  },
+  {
+    "name": "byte_41F594",
+    "address": "0x41f594",
+    "type": null
+  },
+  {
+    "name": "dword_41F6A8",
+    "address": "0x41f6a8",
+    "type": null
+  },
+  {
+    "name": "byte_41F868",
+    "address": "0x41f868",
+    "type": null
+  },
+  {
+    "name": "dword_4A95D8",
+    "address": "0x4a95d8",
+    "type": null
+  },
+  {
+    "name": "dword_41F84C",
+    "address": "0x41f84c",
+    "type": null
+  },
+  {
+    "name": "dword_41F544",
+    "address": "0x41f544",
+    "type": null
+  },
+  {
+    "name": "dword_41F638",
+    "address": "0x41f638",
+    "type": null
+  },
+  {
+    "name": "unk_4207F8",
+    "address": "0x4207f8",
+    "type": null
+  },
+  {
+    "name": "unk_4A95F0",
+    "address": "0x4a95f0",
+    "type": null
+  },
+  {
+    "name": "dword_41F528",
+    "address": "0x41f528",
+    "type": null
+  },
+  {
+    "name": "dword_41F524",
+    "address": "0x41f524",
+    "type": null
+  },
+  {
+    "name": "dword_41F66C",
+    "address": "0x41f66c",
+    "type": null
+  },
+  {
+    "name": "byte_41E058",
+    "address": "0x41e058",
+    "type": null
+  },
+  {
+    "name": "dword_41F5F8",
+    "address": "0x41f5f8",
+    "type": null
+  },
+  {
+    "name": "dword_41F548",
+    "address": "0x41f548",
+    "type": null
+  },
+  {
+    "name": "dword_41F83C",
+    "address": "0x41f83c",
+    "type": null
+  },
+  {
+    "name": "dword_41F4CC",
+    "address": "0x41f4cc",
+    "type": null
+  },
+  {
+    "name": "dword_41F5F4",
+    "address": "0x41f5f4",
+    "type": null
+  },
+  {
+    "name": "byte_41F860",
+    "address": "0x41f860",
+    "type": null
+  },
+  {
+    "name": "dword_41F5B0",
+    "address": "0x41f5b0",
+    "type": null
+  },
+  {
+    "name": "dword_4A95E0",
+    "address": "0x4a95e0",
+    "type": null
+  },
+  {
+    "name": "dword_41F4D8",
+    "address": "0x41f4d8",
+    "type": null
+  },
+  {
+    "name": "byte_41F849",
+    "address": "0x41f849",
+    "type": null
+  },
+  {
+    "name": "dword_41F4E0",
+    "address": "0x41f4e0",
+    "type": null
+  },
+  {
+    "name": "dword_41F5E0",
+    "address": "0x41f5e0",
+    "type": null
+  },
+  {
+    "name": "unk_41F7C8",
+    "address": "0x41f7c8",
+    "type": null
+  },
+  {
+    "name": "dword_4A95E4",
+    "address": "0x4a95e4",
+    "type": null
+  },
+  {
+    "name": "dword_41F5A4",
+    "address": "0x41f5a4",
+    "type": null
+  },
+  {
+    "name": "byte_41E050",
+    "address": "0x41e050",
+    "type": null
+  },
+  {
+    "name": "dword_41F5AC",
+    "address": "0x41f5ac",
+    "type": null
+  },
+  {
+    "name": "dword_41F798",
+    "address": "0x41f798",
+    "type": null
+  },
+  {
+    "name": "dword_41F480",
+    "address": "0x41f480",
+    "type": null
+  },
+  {
+    "name": "dword_41F5CC",
+    "address": "0x41f5cc",
+    "type": null
+  },
+  {
+    "name": "byte_41F6BA",
+    "address": "0x41f6ba",
+    "type": null
+  },
+  {
+    "name": "byte_41E654",
+    "address": "0x41e654",
+    "type": "CHAR[36]"
+  },
+  {
+    "name": "dword_41F658",
+    "address": "0x41f658",
+    "type": null
+  },
+  {
+    "name": "dword_4A95EC",
+    "address": "0x4a95ec",
+    "type": null
+  },
+  {
+    "name": "dword_41F588",
+    "address": "0x41f588",
+    "type": null
+  },
+  {
+    "name": "dword_41F644",
+    "address": "0x41f644",
+    "type": null
+  },
+  {
+    "name": "dword_41F460",
+    "address": "0x41f460",
+    "type": null
+  },
+  {
+    "name": "dword_41F610",
+    "address": "0x41f610",
+    "type": null
+  },
+  {
+    "name": "dword_41F530",
+    "address": "0x41f530",
+    "type": null
+  },
+  {
+    "name": "dword_41F6C8",
+    "address": "0x41f6c8",
+    "type": null
+  },
+  {
+    "name": "dword_41F4B8",
+    "address": "0x41f4b8",
+    "type": null
+  },
+  {
+    "name": "dword_41F648",
+    "address": "0x41f648",
+    "type": null
+  },
+  {
+    "name": "dword_41F58C",
+    "address": "0x41f58c",
+    "type": null
+  },
+  {
+    "name": "dword_41F6BC",
+    "address": "0x41f6bc",
+    "type": null
+  }
+]
