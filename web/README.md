@@ -6,6 +6,8 @@
 
 ## 실행
 
+[공개 웹 버전](https://legerdo.github.io/kirubiru_kor/)에서 바로 플레이할 수 있습니다.
+
 이 폴더의 `run.bat`을 실행하거나 다음을 실행합니다. 기존 상위 `run-web.bat`도 사용할 수 있습니다.
 
 ```powershell
@@ -45,7 +47,7 @@ node tools/volume-qa.mjs  # 실제 출력 신호의 0% 무음, WAV/MIDI 공통 �
 node tools/layout-qa.mjs  # 12개 화면 크기/회전, 스크롤·잘림 없음, 조작법 상시 표시와 일시정지 문구 확인
 ```
 
-`dist/`는 정적 HTTP 서버에서 서비스할 수 있습니다. 더블클릭하는 `file://` 방식은 WebAssembly 및 리소스 로딩 때문에 지원하지 않습니다. 외부 호스팅에 게시하지 않았습니다.
+`dist/`는 정적 HTTP 서버에서 서비스할 수 있습니다. 더블클릭하는 `file://` 방식은 WebAssembly 및 리소스 로딩 때문에 지원하지 않습니다. 상위 [Pages 워크플로](../.github/workflows/pages.yml)는 `main`에 push할 때 테스트 → 원본 리소스/리플레이 검증 → 빌드 → GitHub Pages 배포를 수행합니다. CI는 보존된 `public/game.wasm`을 사용하므로 게임 로직 변경 시에는 아래 절차로 WASM을 재생성해 함께 커밋해야 합니다.
 
 ## 원본 로직 재빌드
 
