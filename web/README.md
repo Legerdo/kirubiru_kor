@@ -69,7 +69,9 @@ npm run build
 원작 **키루비루(斬るビル)** · **HORI, Liku, sweet tast © 2004**. 제공된 한글판을 사용하는 비공식 웹 이식입니다.
 
 - [원작 출처](public/SOURCES.md): 원작명, 제작자와 나무위키 참고 링크.
-- [권리와 라이선스 범위](public/LICENSE.md): 원작 리소스/복원 코드/웹 전용 코드/외부 라이브러리 구분. 원작의 웹 이식·재배포 허락은 미확인입니다.
+- [권리와 라이선스 범위](public/LICENSE.md)
 - [외부 라이브러리 고지](public/THIRD_PARTY_NOTICES.md): 실제 설치 버전의 저작권 및 라이선스 전문. `public/licenses/`와 함께 `dist/`에도 복사됩니다.
 
-게임 하단의 제작자 링크는 UTF-8 HTML로 작성한 [출처 안내](public/credits.html)를 새 탭으로 엽니다. 프로젝트 자체의 공개 라이선스는 지정하지 않았습니다(`private: true`, `license: UNLICENSED`).
+게임 하단의 제작자 링크에서 [출처 안내](public/credits.html)를 볼 수 있습니다.
+
+저작권 및 이용 관련 문의는 [GitHub 이슈](https://github.com/Legerdo/kirubiru_kor/issues)로 남겨 주세요.
